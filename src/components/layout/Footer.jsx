@@ -20,10 +20,10 @@ const Footer = () => {
     ];
 
     const socialLinks = [
-        { icon: <FiLinkedin />, href: '#', label: 'LinkedIn' },
-        { icon: <FiTwitter />, href: '#', label: 'Twitter' },
-        { icon: <FiYoutube />, href: '#', label: 'YouTube' },
-        { icon: <SiTelegram />, href: '#', label: 'Telegram' },
+        { icon: <FiLinkedin />, href: '#/', label: 'LinkedIn' },
+        { icon: <FiTwitter />, href: '#/', label: 'Twitter' },
+        { icon: <FiYoutube />, href: '#/', label: 'YouTube' },
+        { icon: <SiTelegram />, href: '#/', label: 'Telegram' },
         { icon: <FiMail />, href: 'mailto:contact@jaysmith.com', label: 'Email' },
     ];
 
@@ -87,7 +87,7 @@ const Footer = () => {
                 </p>
                 <div className="flex gap-8">
                     {['Privacy Policy', 'Terms of Service', 'Cookie Policy'].map(item => (
-                        <a key={item} href="#" className="text-[10px] font-black uppercase tracking-widest hover:text-primary transition-colors">
+                        <a key={item} href="#/" className="text-[10px] font-black uppercase tracking-widest hover:text-primary transition-colors">
                             {item}
                         </a>
                     ))}

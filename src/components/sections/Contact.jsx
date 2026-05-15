@@ -1,14 +1,9 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { HiMail, HiMicrophone, HiChatAlt2, HiStar, HiPaperAirplane, HiUser } from 'react-icons/hi';
+import { HiMicrophone, HiChatAlt2, HiStar, HiPaperAirplane, HiUser } from 'react-icons/hi';
 
 const Contact = () => {
-    const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        type: '',
-        message: '',
-    });
+
 
     const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -24,7 +19,6 @@ const Contact = () => {
         setIsSubmitting(true);
         await new Promise(resolve => setTimeout(resolve, 2000));
         setIsSubmitting(false);
-        setFormData({ name: '', email: '', type: '', message: '' });
         alert('MESSAGE SENT TO THE ARCHITECT.');
     };
 

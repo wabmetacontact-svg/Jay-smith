@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { HiOutlineExternalLink, HiMicrophone, HiPencilAlt, HiChatAlt2, HiLightningBolt } from 'react-icons/hi';
+import { HiOutlineExternalLink, HiMicrophone, HiPencilAlt, HiLightningBolt } from 'react-icons/hi';
 
 const ThoughtLeadership = () => {
     const featuredContent = [
@@ -66,7 +66,7 @@ const ThoughtLeadership = () => {
                     {featuredContent.map((content, index) => (
                         <motion.a 
                             key={index}
-                            href="#"
+                            href="#/"
                             initial={{ opacity: 0, x: 20 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true }}
@@ -93,7 +93,7 @@ const ThoughtLeadership = () => {
                         </motion.a>
                     ))}
                     
-                    <a href="#" className="p-8 text-center font-black uppercase tracking-[0.3em] text-xs hover:bg-primary hover:text-white transition-all cursor-pointer">
+                    <a href="#/" className="p-8 text-center font-black uppercase tracking-[0.3em] text-xs hover:bg-primary hover:text-white transition-all cursor-pointer">
                         VIEW ALL PUBLICATIONS ✦
                     </a>
                 </div>
