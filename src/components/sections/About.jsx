@@ -23,8 +23,8 @@ const About = () => {
                 <div className="text-2xl lg:text-3xl leading-relaxed space-y-8 font-medium">
                     <p>
                         I'm a technology leader focused on building trusted digital systems
-                        for the future. My career has been driven by a simple belief — 
-                        <span className="text-primary font-black"> technology should empower people </span> 
+                        for the future. My career has been driven by a simple belief —
+                        <span className="text-primary font-black"> technology should empower people </span>
                         while creating reliable systems that scale globally.
                     </p>
                     <p className="opacity-70">
@@ -35,7 +35,7 @@ const About = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
                     {features.map((feature, index) => (
-                        <motion.div 
+                        <motion.div
                             key={feature.title}
                             initial={{ opacity: 0, scale: 0.95 }}
                             whileInView={{ opacity: 1, scale: 1 }}
@@ -57,7 +57,7 @@ const About = () => {
                 <div className="w-full aspect-[4/5] bg-slate-100 dark:bg-slate-900 border-2 border-slate-900 dark:border-slate-100 p-8 flex flex-col justify-between shadow-[20px_20px_0px_#f23b0d]">
                     <div className="space-y-4">
                         <div className="text-primary"><HiGlobe size={80} /></div>
-                        <h3 className="text-4xl lg:text-6xl font-black uppercase tracking-tighter leading-none">10+ YEARS</h3>
+                        <h3 className="text-4xl lg:text-6xl font-black uppercase tracking-tighter leading-none">40+ YEARS</h3>
                         <p className="text-lg font-black uppercase opacity-60">OF EXCELLENCE IN THE FIELD</p>
                     </div>
                     <div className="space-y-4 border-t-2 border-slate-900 dark:border-slate-100 pt-8">
