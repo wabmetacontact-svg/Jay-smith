@@ -1,0 +1,559 @@
+
+> jay-smith-portfolio@1.0.0 start
+> react-scripts start 
+
+(node:4788) [DEP0176] DeprecationWarning: fs.F_OK is deprecated, use fs.constants.F_OK instead
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:4788) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(node:4788) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Failed to compile.
+
+Module not found: Error: Cannot find file: 'index.js' does not match the corresponding name on disk: '.\src\Index.js'.
+[1m[31mERROR[39m[22m in [1m[32mmain[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Cannot find file: 'index.js' does not match the corresponding name on disk: '.\src\Index.js'.[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve './components/Navbar' in 'c:\Users\Sameer Thakur\jay-smith-portfolio\src'
+[1m[31mERROR[39m[22m in [1m./src/App.jsx[39m[22m [1m[32m6:0-41[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './components/Navbar' in 'c:\Users\Sameer Thakur\jay-smith-portfolio\src'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/App.jsx[39m[22m [1m[32m7:0-37[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './components/Hero' in 'c:\Users\Sameer Thakur\jay-smith-portfolio\src'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/App.jsx[39m[22m [1m[32m8:0-39[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './components/About' in 'c:\Users\Sameer Thakur\jay-smith-portfolio\src'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/App.jsx[39m[22m [1m[32m9:0-49[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './components/CoreValues' in 'c:\Users\Sameer Thakur\jay-smith-portfolio\src'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/App.jsx[39m[22m [1m[32m10:0-47[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './components/Expertise' in 'c:\Users\Sameer Thakur\jay-smith-portfolio\src'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/App.jsx[39m[22m [1m[32m11:0-63[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './components/ThoughtLeadership' in 'c:\Users\Sameer Thakur\jay-smith-portfolio\src'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/App.jsx[39m[22m [1m[32m12:0-53[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './components/Achievements' in 'c:\Users\Sameer Thakur\jay-smith-portfolio\src'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/App.jsx[39m[22m [1m[32m13:0-55[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './components/MediaSpeaking' in 'c:\Users\Sameer Thakur\jay-smith-portfolio\src'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/App.jsx[39m[22m [1m[32m14:0-47[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './components/Community' in 'c:\Users\Sameer Thakur\jay-smith-portfolio\src'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/App.jsx[39m[22m [1m[32m15:0-41[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './components/Vision' in 'c:\Users\Sameer Thakur\jay-smith-portfolio\src'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/App.jsx[39m[22m [1m[32m16:0-43[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './components/Contact' in 'c:\Users\Sameer Thakur\jay-smith-portfolio\src'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/App.jsx[39m[22m [1m[32m17:0-41[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './components/Footer' in 'c:\Users\Sameer Thakur\jay-smith-portfolio\src'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/App.jsx[39m[22m [1m[32m18:0-65[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './components/ParticleBackground' in 'c:\Users\Sameer Thakur\jay-smith-portfolio\src'[39m[22m
+
+webpack compiled with [1m[31m13 errors[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\components\effects\ParticleBackground.jsx
+  Line 3:13:  'THREE' is defined but never used  no-unused-vars
+
+src\components\sections\Achievements.jsx
+  Line 4:19:  'FiArrowRight' is defined but never used  no-unused-vars
+
+src\components\sections\Hero.jsx
+  Line 3:39:  'FiPlay' is defined but never used  no-unused-vars
+
+src\components\sections\MediaSpeaking.jsx
+  Line 6:5:  'FiExternalLink' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\components\effects\ParticleBackground.jsx
+  Line 3:13:  'THREE' is defined but never used  no-unused-vars
+
+src\components\sections\Achievements.jsx
+  Line 4:19:  'FiArrowRight' is defined but never used  no-unused-vars
+
+src\components\sections\Hero.jsx
+  Line 3:39:  'FiPlay' is defined but never used  no-unused-vars
+
+src\components\sections\MediaSpeaking.jsx
+  Line 6:5:  'FiExternalLink' is defined but never used  no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\App.jsx
+  Line 2:35:   'useScroll' is defined but never used       no-unused-vars
+  Line 2:46:   'useTransform' is defined but never used    no-unused-vars
+  Line 5:13:   'THREE' is defined but never used           no-unused-vars
+  Line 9:21:   'FiLayers' is defined but never used        no-unused-vars
+  Line 9:31:   'FiFileText' is defined but never used      no-unused-vars
+  Line 9:43:   'FiHeadphones' is defined but never used    no-unused-vars
+  Line 10:5:   'FiArrowUpRight' is defined but never used  no-unused-vars
+  Line 10:21:  'FiCalendar' is defined but never used      no-unused-vars
+  Line 10:33:  'FiExternalLink' is defined but never used  no-unused-vars
+  Line 10:49:  'FiVideo' is defined but never used         no-unused-vars
+  Line 11:5:   'FiRadio' is defined but never used         no-unused-vars
+
+src\components\effects\ParticleBackground.jsx
+  Line 3:13:  'THREE' is defined but never used  no-unused-vars
+
+src\components\sections\Achievements.jsx
+  Line 4:19:  'FiArrowRight' is defined but never used  no-unused-vars
+
+src\components\sections\Hero.jsx
+  Line 3:39:  'FiPlay' is defined but never used  no-unused-vars
+
+src\components\sections\MediaSpeaking.jsx
+  Line 6:5:  'FiExternalLink' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\App.jsx
+  Line 2:35:   'useScroll' is defined but never used       no-unused-vars
+  Line 2:46:   'useTransform' is defined but never used    no-unused-vars
+  Line 5:13:   'THREE' is defined but never used           no-unused-vars
+  Line 9:21:   'FiLayers' is defined but never used        no-unused-vars
+  Line 9:31:   'FiFileText' is defined but never used      no-unused-vars
+  Line 9:43:   'FiHeadphones' is defined but never used    no-unused-vars
+  Line 10:5:   'FiArrowUpRight' is defined but never used  no-unused-vars
+  Line 10:21:  'FiCalendar' is defined but never used      no-unused-vars
+  Line 10:33:  'FiExternalLink' is defined but never used  no-unused-vars
+  Line 10:49:  'FiVideo' is defined but never used         no-unused-vars
+  Line 11:5:   'FiRadio' is defined but never used         no-unused-vars
+
+src\components\effects\ParticleBackground.jsx
+  Line 3:13:  'THREE' is defined but never used  no-unused-vars
+
+src\components\sections\Achievements.jsx
+  Line 4:19:  'FiArrowRight' is defined but never used  no-unused-vars
+
+src\components\sections\Hero.jsx
+  Line 3:39:  'FiPlay' is defined but never used  no-unused-vars
+
+src\components\sections\MediaSpeaking.jsx
+  Line 6:5:  'FiExternalLink' is defined but never used  no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\App.jsx
+  Line 2:35:   'useScroll' is defined but never used       no-unused-vars
+  Line 2:46:   'useTransform' is defined but never used    no-unused-vars
+  Line 5:13:   'THREE' is defined but never used           no-unused-vars
+  Line 9:21:   'FiLayers' is defined but never used        no-unused-vars
+  Line 9:31:   'FiFileText' is defined but never used      no-unused-vars
+  Line 9:43:   'FiHeadphones' is defined but never used    no-unused-vars
+  Line 10:5:   'FiArrowUpRight' is defined but never used  no-unused-vars
+  Line 10:21:  'FiCalendar' is defined but never used      no-unused-vars
+  Line 10:33:  'FiExternalLink' is defined but never used  no-unused-vars
+  Line 10:49:  'FiVideo' is defined but never used         no-unused-vars
+  Line 11:5:   'FiRadio' is defined but never used         no-unused-vars
+
+src\components\effects\ParticleBackground.jsx
+  Line 3:13:  'THREE' is defined but never used  no-unused-vars
+
+src\components\sections\Achievements.jsx
+  Line 4:19:  'FiArrowRight' is defined but never used  no-unused-vars
+
+src\components\sections\Hero.jsx
+  Line 3:39:  'FiPlay' is defined but never used  no-unused-vars
+
+src\components\sections\MediaSpeaking.jsx
+  Line 6:5:  'FiExternalLink' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\App.jsx
+  Line 2:35:   'useScroll' is defined but never used       no-unused-vars
+  Line 2:46:   'useTransform' is defined but never used    no-unused-vars
+  Line 5:13:   'THREE' is defined but never used           no-unused-vars
+  Line 9:21:   'FiLayers' is defined but never used        no-unused-vars
+  Line 9:31:   'FiFileText' is defined but never used      no-unused-vars
+  Line 9:43:   'FiHeadphones' is defined but never used    no-unused-vars
+  Line 10:5:   'FiArrowUpRight' is defined but never used  no-unused-vars
+  Line 10:21:  'FiCalendar' is defined but never used      no-unused-vars
+  Line 10:33:  'FiExternalLink' is defined but never used  no-unused-vars
+  Line 10:49:  'FiVideo' is defined but never used         no-unused-vars
+  Line 11:5:   'FiRadio' is defined but never used         no-unused-vars
+
+src\components\effects\ParticleBackground.jsx
+  Line 3:13:  'THREE' is defined but never used  no-unused-vars
+
+src\components\sections\Achievements.jsx
+  Line 4:19:  'FiArrowRight' is defined but never used  no-unused-vars
+
+src\components\sections\Hero.jsx
+  Line 3:39:  'FiPlay' is defined but never used  no-unused-vars
+
+src\components\sections\MediaSpeaking.jsx
+  Line 6:5:  'FiExternalLink' is defined but never used  no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\App.jsx
+  Line 2:35:   'useScroll' is defined but never used       no-unused-vars
+  Line 2:46:   'useTransform' is defined but never used    no-unused-vars
+  Line 5:13:   'THREE' is defined but never used           no-unused-vars
+  Line 9:21:   'FiLayers' is defined but never used        no-unused-vars
+  Line 9:31:   'FiFileText' is defined but never used      no-unused-vars
+  Line 9:43:   'FiHeadphones' is defined but never used    no-unused-vars
+  Line 10:5:   'FiArrowUpRight' is defined but never used  no-unused-vars
+  Line 10:21:  'FiCalendar' is defined but never used      no-unused-vars
+  Line 10:33:  'FiExternalLink' is defined but never used  no-unused-vars
+  Line 10:49:  'FiVideo' is defined but never used         no-unused-vars
+  Line 11:5:   'FiRadio' is defined but never used         no-unused-vars
+
+src\components\effects\ParticleBackground.jsx
+  Line 3:13:  'THREE' is defined but never used  no-unused-vars
+
+src\components\sections\Achievements.jsx
+  Line 4:19:  'FiArrowRight' is defined but never used  no-unused-vars
+
+src\components\sections\Hero.jsx
+  Line 3:39:  'FiPlay' is defined but never used  no-unused-vars
+
+src\components\sections\MediaSpeaking.jsx
+  Line 6:5:  'FiExternalLink' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\App.jsx
+  Line 2:35:   'useScroll' is defined but never used       no-unused-vars
+  Line 2:46:   'useTransform' is defined but never used    no-unused-vars
+  Line 5:13:   'THREE' is defined but never used           no-unused-vars
+  Line 9:21:   'FiLayers' is defined but never used        no-unused-vars
+  Line 9:31:   'FiFileText' is defined but never used      no-unused-vars
+  Line 9:43:   'FiHeadphones' is defined but never used    no-unused-vars
+  Line 10:5:   'FiArrowUpRight' is defined but never used  no-unused-vars
+  Line 10:21:  'FiCalendar' is defined but never used      no-unused-vars
+  Line 10:33:  'FiExternalLink' is defined but never used  no-unused-vars
+  Line 10:49:  'FiVideo' is defined but never used         no-unused-vars
+  Line 11:5:   'FiRadio' is defined but never used         no-unused-vars
+
+src\components\effects\ParticleBackground.jsx
+  Line 3:13:  'THREE' is defined but never used  no-unused-vars
+
+src\components\sections\Achievements.jsx
+  Line 4:19:  'FiArrowRight' is defined but never used  no-unused-vars
+
+src\components\sections\Hero.jsx
+  Line 3:39:  'FiPlay' is defined but never used  no-unused-vars
+
+src\components\sections\MediaSpeaking.jsx
+  Line 6:5:  'FiExternalLink' is defined but never used  no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\App.jsx
+  Line 8:21:   'FiLayers' is defined but never used         no-unused-vars
+  Line 8:31:   'FiFileText' is defined but never used       no-unused-vars
+  Line 8:43:   'FiHeadphones' is defined but never used     no-unused-vars
+  Line 9:5:    'FiCalendar' is defined but never used       no-unused-vars
+  Line 9:17:   'FiExternalLink' is defined but never used   no-unused-vars
+  Line 9:33:   'FiVideo' is defined but never used          no-unused-vars
+  Line 9:42:   'FiRadio' is defined but never used          no-unused-vars
+  Line 9:51:   'FiMessageCircle' is defined but never used  no-unused-vars
+  Line 10:47:  'FiUser' is defined but never used           no-unused-vars
+  Line 11:42:  'FiCheck' is defined but never used          no-unused-vars
+  Line 11:51:  'FiCopy' is defined but never used           no-unused-vars
+  Line 12:19:  'FiDatabase' is defined but never used       no-unused-vars
+  Line 12:31:  'FiCpu' is defined but never used            no-unused-vars
+
+src\components\effects\ParticleBackground.jsx
+  Line 3:13:  'THREE' is defined but never used  no-unused-vars
+
+src\components\sections\Achievements.jsx
+  Line 4:19:  'FiArrowRight' is defined but never used  no-unused-vars
+
+src\components\sections\Hero.jsx
+  Line 3:39:  'FiPlay' is defined but never used  no-unused-vars
+
+src\components\sections\MediaSpeaking.jsx
+  Line 6:5:  'FiExternalLink' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\App.jsx
+  Line 8:21:   'FiLayers' is defined but never used         no-unused-vars
+  Line 8:31:   'FiFileText' is defined but never used       no-unused-vars
+  Line 8:43:   'FiHeadphones' is defined but never used     no-unused-vars
+  Line 9:5:    'FiCalendar' is defined but never used       no-unused-vars
+  Line 9:17:   'FiExternalLink' is defined but never used   no-unused-vars
+  Line 9:33:   'FiVideo' is defined but never used          no-unused-vars
+  Line 9:42:   'FiRadio' is defined but never used          no-unused-vars
+  Line 9:51:   'FiMessageCircle' is defined but never used  no-unused-vars
+  Line 10:47:  'FiUser' is defined but never used           no-unused-vars
+  Line 11:42:  'FiCheck' is defined but never used          no-unused-vars
+  Line 11:51:  'FiCopy' is defined but never used           no-unused-vars
+  Line 12:19:  'FiDatabase' is defined but never used       no-unused-vars
+  Line 12:31:  'FiCpu' is defined but never used            no-unused-vars
+
+src\components\effects\ParticleBackground.jsx
+  Line 3:13:  'THREE' is defined but never used  no-unused-vars
+
+src\components\sections\Achievements.jsx
+  Line 4:19:  'FiArrowRight' is defined but never used  no-unused-vars
+
+src\components\sections\Hero.jsx
+  Line 3:39:  'FiPlay' is defined but never used  no-unused-vars
+
+src\components\sections\MediaSpeaking.jsx
+  Line 6:5:  'FiExternalLink' is defined but never used  no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve './index.css' in 'c:\Users\Sameer Thakur\jay-smith-portfolio\src'
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\App.jsx
+  Line 8:21:   'FiLayers' is defined but never used         no-unused-vars
+  Line 8:31:   'FiFileText' is defined but never used       no-unused-vars
+  Line 8:43:   'FiHeadphones' is defined but never used     no-unused-vars
+  Line 9:5:    'FiCalendar' is defined but never used       no-unused-vars
+  Line 9:17:   'FiExternalLink' is defined but never used   no-unused-vars
+  Line 9:33:   'FiVideo' is defined but never used          no-unused-vars
+  Line 9:42:   'FiRadio' is defined but never used          no-unused-vars
+  Line 9:51:   'FiMessageCircle' is defined but never used  no-unused-vars
+  Line 10:47:  'FiUser' is defined but never used           no-unused-vars
+  Line 11:42:  'FiCheck' is defined but never used          no-unused-vars
+  Line 11:51:  'FiCopy' is defined but never used           no-unused-vars
+  Line 12:19:  'FiDatabase' is defined but never used       no-unused-vars
+  Line 12:31:  'FiCpu' is defined but never used            no-unused-vars
+
+src\components\effects\ParticleBackground.jsx
+  Line 3:13:  'THREE' is defined but never used  no-unused-vars
+
+src\components\sections\Achievements.jsx
+  Line 4:19:  'FiArrowRight' is defined but never used  no-unused-vars
+
+src\components\sections\Hero.jsx
+  Line 3:39:  'FiPlay' is defined but never used  no-unused-vars
+
+src\components\sections\MediaSpeaking.jsx
+  Line 6:5:  'FiExternalLink' is defined but never used  no-unused-vars
+
+[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/index.js[39m[22m [1m[32m7:0-21[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './index.css' in 'c:\Users\Sameer Thakur\jay-smith-portfolio\src'[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m and [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\App.jsx
+  Line 8:21:   'FiLayers' is defined but never used         no-unused-vars
+  Line 8:31:   'FiFileText' is defined but never used       no-unused-vars
+  Line 8:43:   'FiHeadphones' is defined but never used     no-unused-vars
+  Line 9:5:    'FiCalendar' is defined but never used       no-unused-vars
+  Line 9:17:   'FiExternalLink' is defined but never used   no-unused-vars
+  Line 9:33:   'FiVideo' is defined but never used          no-unused-vars
+  Line 9:42:   'FiRadio' is defined but never used          no-unused-vars
+  Line 9:51:   'FiMessageCircle' is defined but never used  no-unused-vars
+  Line 10:47:  'FiUser' is defined but never used           no-unused-vars
+  Line 11:42:  'FiCheck' is defined but never used          no-unused-vars
+  Line 11:51:  'FiCopy' is defined but never used           no-unused-vars
+  Line 12:19:  'FiDatabase' is defined but never used       no-unused-vars
+  Line 12:31:  'FiCpu' is defined but never used            no-unused-vars
+
+src\components\effects\ParticleBackground.jsx
+  Line 3:13:  'THREE' is defined but never used  no-unused-vars
+
+src\components\sections\Achievements.jsx
+  Line 4:19:  'FiArrowRight' is defined but never used  no-unused-vars
+
+src\components\sections\Hero.jsx
+  Line 3:39:  'FiPlay' is defined but never used  no-unused-vars
+
+src\components\sections\MediaSpeaking.jsx
+  Line 6:5:  'FiExternalLink' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\App.jsx
+  Line 8:21:   'FiLayers' is defined but never used         no-unused-vars
+  Line 8:31:   'FiFileText' is defined but never used       no-unused-vars
+  Line 8:43:   'FiHeadphones' is defined but never used     no-unused-vars
+  Line 9:5:    'FiCalendar' is defined but never used       no-unused-vars
+  Line 9:17:   'FiExternalLink' is defined but never used   no-unused-vars
+  Line 9:33:   'FiVideo' is defined but never used          no-unused-vars
+  Line 9:42:   'FiRadio' is defined but never used          no-unused-vars
+  Line 9:51:   'FiMessageCircle' is defined but never used  no-unused-vars
+  Line 10:47:  'FiUser' is defined but never used           no-unused-vars
+  Line 11:42:  'FiCheck' is defined but never used          no-unused-vars
+  Line 11:51:  'FiCopy' is defined but never used           no-unused-vars
+  Line 12:19:  'FiDatabase' is defined but never used       no-unused-vars
+  Line 12:31:  'FiCpu' is defined but never used            no-unused-vars
+
+src\components\effects\ParticleBackground.jsx
+  Line 3:13:  'THREE' is defined but never used  no-unused-vars
+
+src\components\sections\Achievements.jsx
+  Line 4:19:  'FiArrowRight' is defined but never used  no-unused-vars
+
+src\components\sections\Hero.jsx
+  Line 3:39:  'FiPlay' is defined but never used  no-unused-vars
+
+src\components\sections\MediaSpeaking.jsx
+  Line 6:5:  'FiExternalLink' is defined but never used  no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\App.jsx
+  Line 8:21:   'FiLayers' is defined but never used         no-unused-vars
+  Line 8:31:   'FiFileText' is defined but never used       no-unused-vars
+  Line 8:43:   'FiHeadphones' is defined but never used     no-unused-vars
+  Line 9:5:    'FiCalendar' is defined but never used       no-unused-vars
+  Line 9:17:   'FiExternalLink' is defined but never used   no-unused-vars
+  Line 9:33:   'FiVideo' is defined but never used          no-unused-vars
+  Line 9:42:   'FiRadio' is defined but never used          no-unused-vars
+  Line 9:51:   'FiMessageCircle' is defined but never used  no-unused-vars
+  Line 10:47:  'FiUser' is defined but never used           no-unused-vars
+  Line 11:42:  'FiCheck' is defined but never used          no-unused-vars
+  Line 11:51:  'FiCopy' is defined but never used           no-unused-vars
+  Line 12:19:  'FiDatabase' is defined but never used       no-unused-vars
+  Line 12:31:  'FiCpu' is defined but never used            no-unused-vars
+
+src\components\effects\ParticleBackground.jsx
+  Line 3:13:  'THREE' is defined but never used  no-unused-vars
+
+src\components\sections\Achievements.jsx
+  Line 4:19:  'FiArrowRight' is defined but never used  no-unused-vars
+
+src\components\sections\Hero.jsx
+  Line 3:39:  'FiPlay' is defined but never used  no-unused-vars
+
+src\components\sections\MediaSpeaking.jsx
+  Line 6:5:  'FiExternalLink' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\App.jsx
+  Line 8:21:   'FiLayers' is defined but never used         no-unused-vars
+  Line 8:31:   'FiFileText' is defined but never used       no-unused-vars
+  Line 8:43:   'FiHeadphones' is defined but never used     no-unused-vars
+  Line 9:5:    'FiCalendar' is defined but never used       no-unused-vars
+  Line 9:17:   'FiExternalLink' is defined but never used   no-unused-vars
+  Line 9:33:   'FiVideo' is defined but never used          no-unused-vars
+  Line 9:42:   'FiRadio' is defined but never used          no-unused-vars
+  Line 9:51:   'FiMessageCircle' is defined but never used  no-unused-vars
+  Line 10:47:  'FiUser' is defined but never used           no-unused-vars
+  Line 11:42:  'FiCheck' is defined but never used          no-unused-vars
+  Line 11:51:  'FiCopy' is defined but never used           no-unused-vars
+  Line 12:19:  'FiDatabase' is defined but never used       no-unused-vars
+  Line 12:31:  'FiCpu' is defined but never used            no-unused-vars
+
+src\components\effects\ParticleBackground.jsx
+  Line 3:13:  'THREE' is defined but never used  no-unused-vars
+
+src\components\sections\Achievements.jsx
+  Line 4:19:  'FiArrowRight' is defined but never used  no-unused-vars
+
+src\components\sections\Hero.jsx
+  Line 3:39:  'FiPlay' is defined but never used  no-unused-vars
+
+src\components\sections\MediaSpeaking.jsx
+  Line 6:5:  'FiExternalLink' is defined but never used  no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\App.jsx
+  Line 5:32:     'HiExternalLink' is defined but never used                                                                                                                                                                                                                                                                                                                         no-unused-vars
+  Line 10:37:    'FaLinkedin' is defined but never used                                                                                                                                                                                                                                                                                                                             no-unused-vars
+  Line 10:49:    'FaTwitter' is defined but never used                                                                                                                                                                                                                                                                                                                              no-unused-vars
+  Line 1038:29:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src\components\effects\ParticleBackground.jsx
+  Line 3:13:  'THREE' is defined but never used  no-unused-vars
+
+src\components\sections\Achievements.jsx
+  Line 4:19:  'FiArrowRight' is defined but never used  no-unused-vars
+
+src\components\sections\Hero.jsx
+  Line 3:39:  'FiPlay' is defined but never used  no-unused-vars
+
+src\components\sections\MediaSpeaking.jsx
+  Line 6:5:  'FiExternalLink' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\App.jsx
+  Line 5:32:     'HiExternalLink' is defined but never used                                                                                                                                                                                                                                                                                                                         no-unused-vars
+  Line 10:37:    'FaLinkedin' is defined but never used                                                                                                                                                                                                                                                                                                                             no-unused-vars
+  Line 10:49:    'FaTwitter' is defined but never used                                                                                                                                                                                                                                                                                                                              no-unused-vars
+  Line 1038:29:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src\components\effects\ParticleBackground.jsx
+  Line 3:13:  'THREE' is defined but never used  no-unused-vars
+
+src\components\sections\Achievements.jsx
+  Line 4:19:  'FiArrowRight' is defined but never used  no-unused-vars
+
+src\components\sections\Hero.jsx
+  Line 3:39:  'FiPlay' is defined but never used  no-unused-vars
+
+src\components\sections\MediaSpeaking.jsx
+  Line 6:5:  'FiExternalLink' is defined but never used  no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m

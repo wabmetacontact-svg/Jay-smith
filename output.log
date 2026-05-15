@@ -1,0 +1,16 @@
+
+> jay-smith-portfolio@1.0.0 start
+> react-scripts start 
+
+(node:12308) [DEP0176] DeprecationWarning: fs.F_OK is deprecated, use fs.constants.F_OK instead
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Cannot find module 'ajv/dist/compile/codegen'
+Require stack:
+- c:\Users\Sameer Thakur\jay-smith-portfolio\node_modules\ajv-keywords\dist\definitions\typeof.js
+- c:\Users\Sameer Thakur\jay-smith-portfolio\node_modules\ajv-keywords\dist\keywords\typeof.js
+- c:\Users\Sameer Thakur\jay-smith-portfolio\node_modules\ajv-keywords\dist\keywords\index.js
+- c:\Users\Sameer Thakur\jay-smith-portfolio\node_modules\ajv-keywords\dist\index.js
+- c:\Users\Sameer Thakur\jay-smith-portfolio\node_modules\schema-utils\dist\validate.js
+- c:\Users\Sameer Thakur\jay-smith-portfolio\node_modules\schema-utils\dist\index.js
+- c:\Users\Sameer Thakur\jay-smith-portfolio\node_modules\webpack-dev-server\lib\Server.js
+- c:\Users\Sameer Thakur\jay-smith-portfolio\node_modules\react-scripts\scripts\start.js
