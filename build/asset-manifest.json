@@ -1,13 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.229405d4.css",
-    "main.js": "/static/js/main.32238926.js",
+    "main.js": "/static/js/main.cc9d56af.js",
+    "static/media/blog-stablecoin.jpg": "/static/media/blog-stablecoin.0ffc1f1557c18139990f.jpg",
+    "static/media/blog-policy-engine.jpg": "/static/media/blog-policy-engine.f37cb61601833f4a4b7b.jpg",
+    "static/media/blog-agentic-ai.jpg": "/static/media/blog-agentic-ai.5009b02dd2815da8d496.jpg",
+    "static/media/blog-synthetic-executive.jpg": "/static/media/blog-synthetic-executive.1b98d981412effabdc30.jpg",
     "index.html": "/index.html",
     "main.229405d4.css.map": "/static/css/main.229405d4.css.map",
-    "main.32238926.js.map": "/static/js/main.32238926.js.map"
+    "main.cc9d56af.js.map": "/static/js/main.cc9d56af.js.map"
   },
   "entrypoints": [
     "static/css/main.229405d4.css",
-    "static/js/main.32238926.js"
+    "static/js/main.cc9d56af.js"
   ]
 }

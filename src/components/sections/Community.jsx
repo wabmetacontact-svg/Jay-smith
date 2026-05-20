@@ -1,15 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FiLinkedin, FiTwitter, FiYoutube, FiMessageSquare, FiExternalLink } from 'react-icons/fi';
-import { SiTelegram } from 'react-icons/si';
+import { FiLinkedin, FiTwitter, FiExternalLink } from 'react-icons/fi';
 
 const Community = () => {
     const platforms = [
-        { icon: <FiLinkedin />, name: 'LinkedIn', handle: '@jaysmith', count: '50K+', color: '#0077b5' },
-        { icon: <FiTwitter />, name: 'Twitter / X', handle: '@jay_smith', count: '35K+', color: '#1da1f2' },
-        { icon: <FiYoutube />, name: 'YouTube', handle: 'Jay Smith', count: '20K+', color: '#ff0000' },
-        { icon: <SiTelegram />, name: 'Telegram', handle: 'Jay Smith Community', count: '15K+', color: '#0088cc' },
-        { icon: <FiMessageSquare />, name: 'Podcasts', handle: 'Multiple Shows', count: '100+', color: '#8b5cf6' },
+        { icon: <FiLinkedin />, name: 'LinkedIn', handle: '@jaysmithpmp', href: 'https://www.linkedin.com/in/jaysmithpmp/', color: '#0077b5' },
+        { icon: <FiTwitter />, name: 'Twitter / X', handle: '@JaySmithNotes', href: 'https://x.com/JaySmithNotes', color: '#1da1f2' },
     ];
 
     return (
@@ -21,16 +17,18 @@ const Community = () => {
                 </h2>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-0 border-2 border-slate-900 dark:border-slate-100 divide-x-2 divide-y-2 lg:divide-y-0 divide-slate-900 dark:divide-slate-100">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-0 border-2 border-slate-900 dark:border-slate-100 divide-y-2 md:divide-y-0 md:divide-x-2 divide-slate-900 dark:divide-slate-100 max-w-4xl mx-auto">
                 {platforms.map((p, i) => (
                     <motion.a 
                         key={p.name}
-                        href="#"
+                        href={p.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
                         viewport={{ once: true }}
                         transition={{ delay: i * 0.1 }}
-                        className="p-10 flex flex-col items-center text-center gap-6 group hover:bg-primary transition-all duration-300"
+                        className="p-12 flex flex-col items-center text-center gap-6 group hover:bg-primary transition-all duration-300"
                     >
                         <div className="size-20 rounded border-2 border-slate-900 dark:border-slate-100 flex items-center justify-center text-3xl group-hover:bg-white group-hover:text-primary group-hover:rotate-12 transition-all">
                             {p.icon}
@@ -43,15 +41,7 @@ const Community = () => {
                                 {p.handle}
                             </p>
                         </div>
-                        <div className="flex flex-col mt-4">
-                            <span className="text-4xl font-black text-primary group-hover:text-white font-display">
-                                {p.count}
-                            </span>
-                            <span className="text-[10px] font-black uppercase tracking-widest opacity-40 group-hover:text-white group-hover:opacity-70">
-                                Global Followers
-                            </span>
-                        </div>
-                        <div className="mt-auto opacity-0 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 transition-all text-white">
+                        <div className="mt-4 opacity-0 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 transition-all text-white">
                             <FiExternalLink size={24} />
                         </div>
                     </motion.a>

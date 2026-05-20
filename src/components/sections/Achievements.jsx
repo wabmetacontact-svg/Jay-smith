@@ -6,15 +6,15 @@ const Achievements = () => {
     const milestones = [
         {
             year: '2024',
-            title: 'Enterprise Blockchain Partnerships',
-            description: 'Established strategic partnerships with major enterprise clients for blockchain integration.',
-            achievements: ['Fortune 500 company partnerships', 'Enterprise identity solutions', 'Cross-industry adoption']
+            title: 'Genialt.ai Launch & Certen Advisory',
+            description: "Launched Genialt.ai, a blockchain-powered governance layer for enterprise AI agents, addressing the compliance gap between autonomous AI and institutional accountability. Acted as Senior Tokenomics Advisor at Certen Protocol, playing a pivotal role in shaping the governance framework for tokenized assets.",
+            achievements: ['AI agent identity framework', 'Auditable approval workflows', 'Enterprise pilot integrations']
         },
         {
             year: '2023',
-            title: 'Decentralized Identity Launch',
-            description: 'Successfully launched Accumulate\'s decentralized identity system to market.',
-            achievements: ['Production-ready identity platform', 'Thousands of digital identities', 'Industry recognition']
+            title: 'Accumulate Identity System',
+            description: "Brought Accumulate Protocol's identity-centric architecture to production — enabling enterprise-grade digital identity at scale on a decentralized infrastructure.",
+            achievements: ['Identity-centric blockchain live', 'Chainable identity keys (ADIs)', 'Governance committee established']
         },
         {
             year: '2022',
@@ -24,9 +24,9 @@ const Achievements = () => {
         },
         {
             year: '2021',
-            title: 'Accumulate Foundation',
-            description: 'Joined as President & Chairman, steering the company toward its mission.',
-            achievements: ['Strategic vision implementation', 'Team growth', 'Product roadmap']
+            title: 'Accumulate Protocol',
+            description: 'Joined as President and established the foundational governance structure for a new identity-centric blockchain — building the technical roadmap, core team, and community governance framework.',
+            achievements: ['Protocol architecture defined', 'Governance committee formed', 'Foundation mission anchored']
         },
     ];
 

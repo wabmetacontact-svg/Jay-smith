@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { HiLockClosed, HiServer, HiShieldCheck, HiGlobeAlt, HiLink, HiCube } from 'react-icons/hi';
+import { HiLockClosed, HiServer, HiShieldCheck, HiGlobeAlt, HiCube, HiChip } from 'react-icons/hi';
 
 const Expertise = () => {
     const expertiseAreas = [
@@ -25,14 +25,14 @@ const Expertise = () => {
         {
             icon: <HiGlobeAlt />,
             title: 'Web3 Governance',
-            description: 'Developing governance models for decentralized organizations that balance efficiency with true decentralization and community participation.',
+            description: 'Designing and leading distributed governance for live blockchain protocols — including chairing the Accumulate Governance Committee and advising on Ceren Protocol tokenomics. Governance models built for resilience, accountability, and long-term ecosystem health.',
             features: ['DAO Structures', 'Voting Mechanisms', 'Token Economics']
         },
         {
-            icon: <HiLink />,
-            title: 'Blockchain Interoperability',
-            description: 'Enabling seamless communication and value transfer between different networks, creating a more connected decentralized ecosystem.',
-            features: ['Cross-Chain Bridges', 'Protocol Standards', 'Multi-Chain']
+            icon: <HiChip />,
+            title: 'AI Agent Governance',
+            description: 'Designing identity and oversight frameworks that make enterprise AI agents known, approved, and auditable.',
+            features: ['Genialt.ai', 'Agentic AI', 'Enterprise Compliance']
         },
         {
             icon: <HiCube />,

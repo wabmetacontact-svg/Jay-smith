@@ -5,7 +5,6 @@ import About from './components/sections/About';
 import Expertise from './components/sections/Expertise';
 import Vision from './components/sections/Vision';
 import CoreValues from './components/sections/CoreValues';
-import ThoughtLeadership from './components/sections/ThoughtLeadership';
 import MediaSpeaking from './components/sections/MediaSpeaking';
 import Achievements from './components/sections/Achievements';
 import Contact from './components/sections/Contact';
@@ -40,7 +39,6 @@ const App = () => {
                     <Expertise />
                     <Vision />
                     <CoreValues />
-                    <ThoughtLeadership />
                     <MediaSpeaking />
                     <Achievements />
                     <Contact />

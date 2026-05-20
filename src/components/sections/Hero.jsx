@@ -12,8 +12,8 @@ const Hero = () => {
                 className="lg:col-span-4"
             >
                 <div
-                    className="bg-slate-200 dark:bg-slate-800 aspect-[4/5] w-full grayscale hover:grayscale-0 transition-all duration-700 rounded border-2 border-slate-900 dark:border-slate-100 bg-cover bg-center shadow-[12px_12px_0px_#f23b0d]"
-                    style={{ backgroundImage: "url('https://media.licdn.com/dms/image/v2/D5612AQHyLTlDW7dlqA/series-logo_image-shrink_200_200/B56ZoXd2KwHQAY-/0/1761330294680?e=1780531200&v=beta&t=v9OrLYjpj2tydgOcD8uChIqNa-uHAuuiYehCOLD14L8')" }}
+                    className="bg-slate-200 dark:bg-slate-800 aspect-[4/5] w-full grayscale hover:grayscale-0 transition-all duration-700 rounded border-2 border-slate-900 dark:border-slate-100 bg-cover bg-[position:20%_center] shadow-[12px_12px_0px_#f23b0d]"
+                    style={{ backgroundImage: "url('/Jaysmith hero section.jpeg')" }}
                 ></div>
             </motion.div>
 
@@ -24,8 +24,8 @@ const Hero = () => {
                     viewport={{ once: true }}
                     transition={{ duration: 0.8, ease: "circOut" }}
                 >
-                    <h1 className="text-6xl lg:text-9xl font-black leading-[0.85] tracking-tighter uppercase font-display">
-                        TECH <br /> LEADER & <br /> <span className="text-primary italic">ARCHITECT</span>
+                    <h1 className="text-6xl lg:text-8xl font-black leading-[0.85] tracking-tighter uppercase font-display">
+                        BLOCKCHAIN <br /> GOVERNANCE & <br /> <span className="text-primary italic">ENTERPRISE AI LEADER</span>
                     </h1>
                 </motion.div>
 
@@ -47,7 +47,7 @@ const Hero = () => {
                     className="flex flex-wrap gap-8 mt-4"
                 >
                     <div className="flex flex-col">
-                        <span className="text-4xl font-black text-primary font-display">40+</span>
+                        <span className="text-4xl font-black text-primary font-display">30+</span>
                         <span className="text-xs font-black uppercase tracking-widest opacity-60">Years Experience</span>
                     </div>
                     <div className="flex flex-col">

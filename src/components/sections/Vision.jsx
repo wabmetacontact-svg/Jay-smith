@@ -23,7 +23,7 @@ const Vision = () => {
                 </div>
 
                 <p className="text-xl lg:text-3xl font-medium max-w-4xl text-slate-700 dark:text-slate-300 border-y-2 border-slate-900/10 dark:border-slate-100/10 py-12 px-6 italic">
-                    My mission is to lead the development of infrastructure that empowers individuals and organizations to interact in a digital ecosystem built on transparency, security, and mutual trust.
+                    I build the infrastructure that makes decentralized systems safe for institutions, and institutional systems ready for decentralization. That means governance before scale, identity before interaction, and accountability before adoption.
                 </p>
 
                 <motion.a 

@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FiLinkedin, FiTwitter, FiYoutube, FiMail, FiArrowUp, FiHeart } from 'react-icons/fi';
-import { SiTelegram } from 'react-icons/si';
+import { FiLinkedin, FiTwitter, FiMail, FiArrowUp, FiHeart } from 'react-icons/fi';
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
@@ -14,16 +13,13 @@ const Footer = () => {
         { name: 'Info', href: '#home' },
         { name: 'About', href: '#about' },
         { name: 'Expertise', href: '#expertise' },
-        { name: 'Speaking', href: '#media' },
-        { name: 'Insights', href: '#thought-leadership' },
+        { name: 'Writing', href: '#writing' },
         { name: 'Contact', href: '#contact' },
     ];
 
     const socialLinks = [
-        { icon: <FiLinkedin />, href: '#/', label: 'LinkedIn' },
-        { icon: <FiTwitter />, href: '#/', label: 'Twitter' },
-        { icon: <FiYoutube />, href: '#/', label: 'YouTube' },
-        { icon: <SiTelegram />, href: '#/', label: 'Telegram' },
+        { icon: <FiLinkedin />, href: 'https://www.linkedin.com/in/jaysmithpmp/', label: 'LinkedIn' },
+        { icon: <FiTwitter />, href: 'https://x.com/JaySmithNotes', label: 'Twitter' },
         { icon: <FiMail />, href: 'mailto:contact@jaysmith.com', label: 'Email' },
     ];
 
@@ -33,13 +29,15 @@ const Footer = () => {
                 <div className="lg:col-span-4 flex flex-col gap-8">
                     <h2 className="text-4xl font-black uppercase tracking-tighter font-display">JAY SMITH</h2>
                     <p className="text-lg font-bold uppercase opacity-60 leading-relaxed max-w-sm">
-                        BUILDING THE FUTURE OF DIGITAL TRUST AND DECENTRALIZED IDENTITY. PRESIDENT & CHAIRMAN AT ACCUMULATE.
+                        30+ years at the intersection of enterprise technology and decentralized systems. President, Accumulate Protocol · Founder, Genialt.ai · Chair, Accumulate Governance Committee.
                     </p>
                     <div className="flex gap-4">
                         {socialLinks.map((social) => (
                             <motion.a
                                 key={social.label}
                                 href={social.href}
+                                target={social.href.startsWith('http') ? '_blank' : undefined}
+                                rel={social.href.startsWith('http') ? 'noopener noreferrer' : undefined}
                                 whileHover={{ scale: 1.1, rotate: 5, backgroundColor: '#f23b0d', color: '#fff' }}
                                 className="size-12 rounded border-2 border-slate-900 dark:border-slate-100 flex items-center justify-center text-xl transition-all"
                                 aria-label={social.label}
@@ -66,7 +64,7 @@ const Footer = () => {
                 <div className="lg:col-span-6 flex flex-col gap-12">
                     <div className="p-8 lg:p-12 border-2 border-slate-900 dark:border-slate-100 bg-white dark:bg-slate-900 shadow-[10px_10px_0px_#f23b0d]">
                         <h4 className="text-2xl font-black uppercase tracking-tighter mb-4">STAY UPDATED</h4>
-                        <p className="text-sm font-bold uppercase opacity-60 mb-8">GET THE LATEST INSIGHTS ON WEB3, BLOCKCHAIN, AND DIGITAL TRUST.</p>
+                        <p className="text-sm font-bold uppercase opacity-60 mb-8">GET THE LATEST INSIGHTS ON WEB3, BLOCKCHAIN, DIGITAL TRUST, AND AI GOVERNANCE.</p>
                         <form className="flex border-2 border-slate-900 dark:border-slate-100" onSubmit={(e) => e.preventDefault()}>
                             <input
                                 type="email"

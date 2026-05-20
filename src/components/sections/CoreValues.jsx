@@ -8,19 +8,19 @@ const CoreValues = () => {
             icon: <HiShieldCheck />,
             title: 'Integrity',
             tagline: "DOING WHAT'S RIGHT — ALWAYS.",
-            description: 'Building trust through transparency, honesty, and ethical leadership in every decision and action.',
+            description: 'Governance without integrity is theater. Every framework I design and every committee I chair is built on the principle that accountability must be structural, not aspirational.',
         },
         {
             icon: <HiLightningBolt />,
             title: 'Innovation',
             tagline: 'CHALLENGING THE STATUS QUO.',
-            description: 'Constantly pushing boundaries and exploring new possibilities to create breakthrough solutions.',
+            description: 'I was building on blockchain when most enterprises still called it a fad. Real innovation means committing to a direction before consensus arrives and having the architecture ready when it does.',
         },
         {
             icon: <HiUserGroup />,
             title: 'Collaboration',
             tagline: 'BUILDING STRONG PARTNERSHIPS.',
-            description: 'Creating lasting relationships and working together to achieve shared goals and greater impact.',
+            description: "Decentralized systems only work when governance is shared. I've led distributed committees, open-protocol communities, and enterprise delivery teams, all requiring real alignment, not just coordination.",
         },
     ];
 
