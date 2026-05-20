@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { HiMicrophone, HiChatAlt2, HiStar, HiPaperAirplane, HiUser } from 'react-icons/hi';
 
 const Contact = () => {
-
-
     const [isSubmitting, setIsSubmitting] = useState(false);
+    const [submitStatus, setSubmitStatus] = useState(null); // 'success', 'error', or null
 
     const collaborationTypes = [
         { icon: <HiStar />, title: 'Partnerships', desc: 'Strategic integration' },
@@ -17,9 +16,34 @@ const Contact = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         setIsSubmitting(true);
-        await new Promise(resolve => setTimeout(resolve, 2000));
-        setIsSubmitting(false);
-        alert('MESSAGE SENT TO THE ARCHITECT.');
+        setSubmitStatus(null);
+
+        const formData = new FormData(e.target);
+        const data = Object.fromEntries(formData.entries());
+
+        try {
+            const response = await fetch('/api/contact', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data),
+            });
+
+            const result = await response.json();
+
+            if (response.ok && result.success) {
+                setSubmitStatus('success');
+                e.target.reset();
+            } else {
+                setSubmitStatus('error');
+            }
+        } catch (err) {
+            console.error('Submission error:', err);
+            setSubmitStatus('error');
+        } finally {
+            setIsSubmitting(false);
+        }
     };
 
     return (
@@ -82,7 +106,10 @@ const Contact = () => {
 
                         <div className="flex flex-col gap-3 mb-8">
                             <label className="text-xs font-black uppercase tracking-widest opacity-60">Inquiry Type</label>
-                            <select className="p-4 border-2 border-slate-900 dark:border-slate-100 bg-transparent outline-none focus:border-primary transition-colors text-sm font-bold uppercase appearance-none cursor-pointer">
+                            <select 
+                                name="inquiryType"
+                                className="p-4 border-2 border-slate-900 dark:border-slate-100 bg-transparent outline-none focus:border-primary transition-colors text-sm font-bold uppercase appearance-none cursor-pointer"
+                            >
                                 <option className="bg-white dark:bg-slate-900">ENTERPRISE PARTNERSHIP</option>
                                 <option className="bg-white dark:bg-slate-900">SPEAKING OPPORTUNITY</option>
                                 <option className="bg-white dark:bg-slate-900">MEDIA INQUIRY</option>
@@ -93,12 +120,32 @@ const Contact = () => {
                         <div className="flex flex-col gap-3 mb-8">
                             <label className="text-xs font-black uppercase tracking-widest opacity-60">Message</label>
                             <textarea 
+                                name="message"
                                 rows="5" 
                                 required 
                                 className="p-4 border-2 border-slate-900 dark:border-slate-100 bg-transparent outline-none focus:border-primary transition-colors text-sm font-bold uppercase resize-none"
                                 placeholder="DESCRIBE YOUR VISION..."
                             />
                         </div>
+
+                        <AnimatePresence>
+                            {submitStatus && (
+                                <motion.div
+                                    initial={{ opacity: 0, y: 10 }}
+                                    animate={{ opacity: 1, y: 0 }}
+                                    exit={{ opacity: 0, y: -10 }}
+                                    className={`p-4 border-2 mb-8 text-sm font-black uppercase tracking-wider text-center ${
+                                        submitStatus === 'success'
+                                            ? 'border-emerald-600 bg-emerald-50 dark:bg-emerald-950/20 text-emerald-600'
+                                            : 'border-rose-600 bg-rose-50 dark:bg-rose-950/20 text-rose-600'
+                                    }`}
+                                >
+                                    {submitStatus === 'success'
+                                        ? '✓ MESSAGE DELIVERED TO THE ARCHITECT.'
+                                        : '✗ DELIVERY FAILED. PLEASE TRY AGAIN OR CONTACT DIRECTLY.'}
+                                </motion.div>
+                            )}
+                        </AnimatePresence>
 
                         <motion.button 
                             whileHover={{ scale: 1.02 }}
