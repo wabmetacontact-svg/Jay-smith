@@ -29,7 +29,7 @@ const Footer = () => {
                 <div className="lg:col-span-4 flex flex-col gap-8">
                     <h2 className="text-4xl font-black uppercase tracking-tighter font-display">JAY SMITH</h2>
                     <p className="text-lg font-bold uppercase opacity-60 leading-relaxed max-w-sm">
-                        30+ years at the intersection of enterprise technology and decentralized systems. President, Accumulate Protocol · Founder, Genialt.ai · Chair, Accumulate Governance Committee.
+                        40+ years at the intersection of enterprise technology and decentralized systems. President, Accumulate Protocol · Founder, Genialt.ai · Chair, Accumulate Governance Committee.
                     </p>
                     <div className="flex gap-4">
                         {socialLinks.map((social) => (

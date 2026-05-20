@@ -22,7 +22,7 @@ const About = () => {
             <div className="lg:col-span-7 flex flex-col gap-10">
                 <div className="text-2xl lg:text-3xl leading-relaxed space-y-8 font-medium">
                     <p>
-                        For over three decades, I've worked at the intersection of business value and technological innovation, turning complex ideas into scalable, real-world enterprise systems. Today my focus is sharper than ever: solving the trust and governance challenges that stand between blockchain and AI and true institutional adoption.
+                        For over four decades, I've worked at the intersection of business value and technological innovation, turning complex ideas into scalable, real-world enterprise systems. Today my focus is sharper than ever: solving the trust and governance challenges that stand between blockchain and AI and true institutional adoption.
                     </p>
                     <p className="opacity-70">
                         I bring strategic program leadership and deep technical architecture to the hardest problems in enterprise blockchain from governance and tokenomics to identity and compliance. My work spans both the institutional and the decentralized: I've built financial systems for Fortune-scale companies and launched governance frameworks for open protocols.
@@ -53,7 +53,7 @@ const About = () => {
                 <div className="w-full aspect-[4/5] bg-slate-100 dark:bg-slate-900 border-2 border-slate-900 dark:border-slate-100 p-8 flex flex-col justify-between shadow-[20px_20px_0px_#f23b0d]">
                     <div className="space-y-4">
                         <div className="text-primary"><HiGlobe size={80} /></div>
-                        <h3 className="text-4xl lg:text-6xl font-black uppercase tracking-tighter leading-none">30+ YEARS</h3>
+                        <h3 className="text-4xl lg:text-6xl font-black uppercase tracking-tighter leading-none">40+ YEARS</h3>
                         <p className="text-lg font-black uppercase opacity-60">OF EXCELLENCE IN THE FIELD</p>
                     </div>
                     <div className="space-y-4 border-t-2 border-slate-900 dark:border-slate-100 pt-8">

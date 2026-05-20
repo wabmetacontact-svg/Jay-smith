@@ -47,7 +47,7 @@ const Hero = () => {
                     className="flex flex-wrap gap-8 mt-4"
                 >
                     <div className="flex flex-col">
-                        <span className="text-4xl font-black text-primary font-display">30+</span>
+                        <span className="text-4xl font-black text-primary font-display">40+</span>
                         <span className="text-xs font-black uppercase tracking-widest opacity-60">Years Experience</span>
                     </div>
                 </motion.div>
