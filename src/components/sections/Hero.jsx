@@ -50,6 +50,14 @@ const Hero = () => {
                         <span className="text-4xl font-black text-primary font-display">40+</span>
                         <span className="text-xs font-black uppercase tracking-widest opacity-60">Years Experience</span>
                     </div>
+                    <div className="flex flex-col">
+                        <span className="text-4xl font-black text-primary font-display">50+</span>
+                        <span className="text-xs font-black uppercase tracking-widest opacity-60">Keynotes Delivered</span>
+                    </div>
+                    <div className="flex flex-col">
+                        <span className="text-4xl font-black text-primary font-display">$100M+</span>
+                        <span className="text-xs font-black uppercase tracking-widest opacity-60">Business Built</span>
+                    </div>
                 </motion.div>
             </div>
         </section>
