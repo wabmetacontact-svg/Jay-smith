@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { HiBookOpen, HiLightBulb, HiChip, HiCurrencyDollar, HiX } from 'react-icons/hi';
+import { HiBookOpen, HiLightBulb, HiChip, HiCurrencyDollar, HiX, HiDocumentText } from 'react-icons/hi';
 
 import blogPolicyEngine from '../../assets/images/blog-policy-engine.jpg';
 import blogSynthetic from '../../assets/images/blog-synthetic-executive.jpg';
 import blogStablecoin from '../../assets/images/blog-stablecoin.jpg';
 import blogAgenticAI from '../../assets/images/blog-agentic-ai.jpg';
+import blogResearchPaper from '../../assets/images/blog-research-paper.png';
 
 const MediaSpeaking = () => {
     const [activeCategory, setActiveCategory] = useState('all');
@@ -25,6 +26,7 @@ const MediaSpeaking = () => {
 
     const categories = [
         { id: 'all', label: 'All', icon: null },
+        { id: 'research-paper', label: 'Research Paper', icon: <HiDocumentText /> },
         { id: 'deep-dive', label: 'Deep Dive', icon: <HiBookOpen /> },
         { id: 'ai', label: 'AI', icon: <HiChip /> },
         { id: 'finance', label: 'Finance', icon: <HiCurrencyDollar /> },
@@ -32,6 +34,15 @@ const MediaSpeaking = () => {
     ];
 
     const blogPosts = [
+        {
+            category: 'research-paper',
+            title: 'Provable Institutional Control for Tokenized Finance',
+            subtitle: 'Research Paper',
+            desc: 'Governance Synchronization as the Missing Infrastructure Layer',
+            date: 'May 2026',
+            img: blogResearchPaper,
+            externalUrl: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6864258',
+        },
         {
             category: 'deep-dive',
             title: 'The Sovereign Mandate',
@@ -572,7 +583,13 @@ For more insights on the intersection of AI, Identity, and Distributed Systems, 
                             animate={{ opacity: 1, scale: 1 }}
                             exit={{ opacity: 0, scale: 0.9 }}
                             transition={{ duration: 0.4 }}
-                            onClick={() => setSelectedBlog(item)}
+                            onClick={() => {
+                                if (item.externalUrl) {
+                                    window.open(item.externalUrl, '_blank', 'noopener,noreferrer');
+                                } else {
+                                    setSelectedBlog(item);
+                                }
+                            }}
                             className="group relative flex flex-col border-2 border-slate-900 dark:border-slate-100 bg-white dark:bg-slate-900 shadow-[8px_8px_0px_#181211] dark:shadow-[8px_8px_0px_#f8f6f5] hover:shadow-[8px_8px_0px_#f23b0d] transition-all cursor-pointer"
                         >
                             <div className="aspect-video overflow-hidden border-b-2 border-slate-900 dark:border-slate-100 relative">
@@ -598,7 +615,7 @@ For more insights on the intersection of AI, Identity, and Distributed Systems, 
                                     {item.desc}
                                 </p>
                                 <span className="text-xs font-black uppercase tracking-widest text-primary mt-2 group-hover:translate-x-2 transition-transform">
-                                    Read Article →
+                                    {item.externalUrl ? 'Read Paper →' : 'Read Article →'}
                                 </span>
                             </div>
                         </motion.div>
